@@ -1,4 +1,4 @@
-  const prompt = require('prompt-sync')();
+const prompt = require('prompt-sync')();
 
 let month = prompt('enter the month number');
 let date = prompt('enter date');

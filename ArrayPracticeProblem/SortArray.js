@@ -21,13 +21,9 @@ let j = Math.floor(Math.random()*899+100);
 console.log(j);
 let array=[a, b, c, d, e, f, g, h, i, j];
 console.log(array);
-
-// if (a > b && a > c && a > d && a > e && a > f && a > g && a > h && a 
-// > i && a >j {
-//     console.log("bigger is"+a);
-// }else if (b > a && b > c && b) {
-    
-// }
+// sorting array by usig sort method
+let sortArray = array.sort();
+console.log(sortArray);
 let largestNumber = array[0];
 let smallestNumber = array[0];
 let secondLargestNumber = array[0];
